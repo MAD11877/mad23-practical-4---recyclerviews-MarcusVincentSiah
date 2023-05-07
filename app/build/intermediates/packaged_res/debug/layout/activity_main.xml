@@ -40,7 +40,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/descriptionTextView"
                 android:layout_width="282dp"
                 android:layout_height="61dp"
                 android:layout_gravity="center"

@@ -4,10 +4,11 @@ import android.icu.lang.UProperty;
 
 public class User {
     static int idStatic = 1;
-    public User(String name, String description){
+    public User(String name, String description, boolean followed){
         id= idStatic;
         this.name = name;
         this.description = description;
+        this.followed = followed;
         idStatic += 1;
     }
     public String name;

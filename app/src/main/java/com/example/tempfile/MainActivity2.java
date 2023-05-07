@@ -19,9 +19,9 @@ public class MainActivity2 extends AppCompatActivity {
 
         Button btn = findViewById(R.id.button);
         boolean[] variable = {false};
-        User user = new User("Hello World!", "Lorem ipsum dolor sit amet, consecttur adipiscing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua\"");
+        User user = new User("Hello World!", "Lorem ipsum dolor sit amet, consecttur adipiscing elit, sed do eiusmod tempor incidiunt ut labore et dolore magna aliqua\"", false);
         EditText name = findViewById(R.id.editTextText);
-        TextView description = findViewById(R.id.textView2);
+        TextView description = findViewById(R.id.descriptionTextView);
 
         name.setText(user.getName());
         description.setText(user.getDescription());
@@ -30,7 +30,7 @@ public class MainActivity2 extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                user.followed = !user.followed;
+                user.followed = !user.followed; //Default bool will be FALSE
                 btn.setText((user.followed)?"Follow":"Unfollow");
 
                 if (user.followed == false){

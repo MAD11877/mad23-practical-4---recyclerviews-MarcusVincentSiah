@@ -8,6 +8,10 @@
         "source": "C:\\Users\\marcu\\.gradle\\daemon\\8.0\\com.example.tempfile.app-main-69:\\layout\\fragment_group1.xml"
     },
     {
+        "merged": "com.example.tempfile.app-mergeDebugResources-66:/layout/user_list_item.xml",
+        "source": "com.example.tempfile.app-main-69:/layout/user_list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\marcu\\.gradle\\daemon\\8.0\\com.example.tempfile.app-mergeDebugResources-66:\\layout\\activity_main.xml",
         "source": "C:\\Users\\marcu\\.gradle\\daemon\\8.0\\com.example.tempfile.app-main-69:\\layout\\activity_main.xml"
     },
@@ -20,7 +24,7 @@
         "source": "C:\\Users\\marcu\\.gradle\\daemon\\8.0\\com.example.tempfile.app-main-69:\\layout\\activity_list.xml"
     },
     {
-        "merged": "com.example.tempfile.app-mergeDebugResources-66:/layout/activity_message_group.xml",
-        "source": "com.example.tempfile.app-main-69:/layout/activity_message_group.xml"
+        "merged": "C:\\Users\\marcu\\.gradle\\daemon\\8.0\\com.example.tempfile.app-mergeDebugResources-66:\\layout\\user_list_item.xml",
+        "source": "C:\\Users\\marcu\\.gradle\\daemon\\8.0\\com.example.tempfile.app-main-69:\\layout\\user_list_item.xml"
     }
 ]
