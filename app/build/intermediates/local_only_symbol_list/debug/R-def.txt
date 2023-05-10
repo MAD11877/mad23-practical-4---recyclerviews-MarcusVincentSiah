@@ -24,6 +24,7 @@ id fragmentContainerView
 id imageView
 id imageView2
 id imageView3
+id imageView4
 id nameTextView
 id nav_graph
 id recyclerView
@@ -34,6 +35,7 @@ layout activity_message_group
 layout fragment_group1
 layout fragment_group2
 layout user_list_item
+layout user_list_item_special
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph

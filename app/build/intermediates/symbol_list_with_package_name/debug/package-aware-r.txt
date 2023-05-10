@@ -2788,6 +2788,7 @@ id image
 id imageView
 id imageView2
 id imageView3
+id imageView4
 id immediateStop
 id included
 id info
@@ -3241,6 +3242,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout user_list_item
+layout user_list_item_special
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
